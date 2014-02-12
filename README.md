@@ -21,13 +21,13 @@ coindesk.currentPrice(null,function(data){
 ```
 Set up another currency
 ```javascript
-CoinBase = require("coindesk-node");
-coindesk = new CoinBase({currency: "EUR"});
+CoinDesk = require("node-coindesk");
+coindesk = new CoinDesk({currency: "EUR"});
 ```
 Retrieve historical data
 ```javascript
-CoinBase = require("coindesk-node");
-coindesk = new CoinBase();
+CoinBase = require("node-coindesk");
+coindesk = new CoinDesk();
 var start_date = new Date();
 var end_date = new Date();
 end_date.setDate(end_date.getDate() - 60);
