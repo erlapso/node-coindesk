@@ -19,7 +19,7 @@ coindesk.currentPrice(null,function(data){
   console.log(data);
 });
 ```
-It is possible to set un another currency
+Set up another currency
 ```javascript
 CoinBase = require("./index.js");
 coindesk = new CoinBase({currency: "EUR"});
