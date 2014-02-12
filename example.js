@@ -1,5 +1,5 @@
-CoinBase = require("./index.js");
-coindesk = new CoinBase();
+CoinDesk = require("./index.js");
+coindesk = new CoinDesk();
 coindesk.currentPrice(null,function(data){
   console.log("Prices:");
   console.log(data);

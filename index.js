@@ -1,1 +1,1 @@
-module.exports = require('./lib/coindesk-node');
+module.exports = require('./lib/node-coindesk');

@@ -1,7 +1,7 @@
 {
-  "name": "coindesk-node",
-  "version": "0.5",
-  "description": "A Node JS client for the CoinDesk API",
+  "name": "node-coindesk",
+  "version": "0.1.0",
+  "description": "Unofficial Node JS client for the CoinDesk API",
   "author": {
     "name": "Vittorio Banfi",
     "email": "vittorio.banfi@gmail.com"

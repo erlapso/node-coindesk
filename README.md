@@ -1,32 +1,32 @@
-Coindesk Node
+Node-CoinDesk
 =======
 
-Unofficial Node JS client for the CoinDesk API
+Unofficial Node JS client for the CoinDesk API.
 
 Installing
 ----------
 
 ```
-npm install coindesk-node
+npm install node-coindesk
 ```
 Example usage
 -------------
 Quick usage: Get the current prices in USD
 ```javascript
-CoinBase = require("./index.js");
-coindesk = new CoinBase();
+CoinDesk = require("./index.js");
+coindesk = new CoinDesk();
 coindesk.currentPrice(null,function(data){
   console.log(data);
 });
 ```
 Set up another currency
 ```javascript
-CoinBase = require("./index.js");
+CoinBase = require("coindesk-node");
 coindesk = new CoinBase({currency: "EUR"});
 ```
 Retrieve historical data
 ```javascript
-CoinBase = require("./index.js");
+CoinBase = require("coindesk-node");
 coindesk = new CoinBase();
 var start_date = new Date();
 var end_date = new Date();
