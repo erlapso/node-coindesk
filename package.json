@@ -1,6 +1,6 @@
 {
   "name": "node-coindesk",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Unofficial Node JS client for the CoinDesk API",
   "author": {
     "name": "Vittorio Banfi",
@@ -9,4 +9,12 @@
   "dependencies": {
     "restler": "*"
   }
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/erlapso/node-coindesk.git"
+  },
+  "directories":{
+    "lib":"./lib"
+  },
+  "main":"./lib/node-coindesk"
 }
