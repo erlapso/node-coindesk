@@ -26,7 +26,7 @@ coindesk = new CoinDesk({currency: "EUR"});
 ```
 Retrieve historical data
 ```javascript
-CoinBase = require("node-coindesk");
+CoinDesk = require("node-coindesk");
 coindesk = new CoinDesk();
 var start_date = new Date();
 var end_date = new Date();
